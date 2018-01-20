@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TextToSpeech } from '@ionic-native/text-to-speech';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -7,8 +8,21 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  text: string;
 
+  constructor(private tts: TextToSpeech, public navCtrl: NavController) {
+
+  }
+
+  // Use of Cordova Plugin
+  async sayText():Promise<any>{
+    try{
+      await this.tts.speak(this.text);
+      console.log("Successfully spoke " + this.text)
+    }
+    catch(e){
+  console.log(e);
+    }
   }
 
 }
