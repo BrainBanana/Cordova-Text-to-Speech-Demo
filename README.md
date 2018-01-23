@@ -19,3 +19,17 @@ As a next step you need to install the cordova text-to-speech plugin and the ion
 $ ionic cordova plugin add cordova-plugin-tts
 $ npm install --save @ionic-native/text-to-speech
 ```
+## Essential code
+
+```typescript
+// Use of Cordova Plugin
+  async sayText():Promise<any>{
+    try{
+      await this.tts.speak(this.text);
+      console.log("Successfully spoke " + this.text)
+    }
+    catch(e){
+  console.log(e);
+    }
+  }
+```
