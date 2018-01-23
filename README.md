@@ -45,3 +45,7 @@ text: string;
     }
   }
 ```
+
+## Tested
+
+The application was successfully tested on iOS 11 using the [Ionic DevApp](https://ionicframework.com/docs/pro/devapp/).
