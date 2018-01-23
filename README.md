@@ -13,7 +13,7 @@ This is a simple app demonstrates the [Ionic Native 3 TTS plugin](https://ionicf
     - Android 4.0.3+ (API Level 15+)
 
 ## Installation
-As a next step you need to install the cordova text-to-speech plugin and the ionic native plugin. Run the following commands in your console.
+As a next step you need to install the cordova text-to-speech plugin and the ionic native plugin. To do so run the following commands in your console.
 
 ```sh
 $ ionic cordova plugin add cordova-plugin-tts
