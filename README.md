@@ -20,7 +20,7 @@ $ ionic cordova plugin add cordova-plugin-tts
 $ npm install --save @ionic-native/text-to-speech
 ```
 ## Code
-The most important code snippet is located in the /pages/home/home.ts file. 
+The most important code snippet is located in the /pages/home/home.ts file. If you push the 'Text to Speech'-Button the method sayText() will be executed. 
 
 ```typescript
 
