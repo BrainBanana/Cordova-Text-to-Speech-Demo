@@ -1,6 +1,6 @@
-# Cordova text-to-speech plugin
+# Cordova Text-to-Speech plugin
 
-This is a simple app which demonstrates the [Ionic Native 3 tts plugin](https://ionicframework.com/docs/native/text-to-speech/) which takes advatage of the [Cordova text-to-speech plugin](https://github.com/vilic/cordova-plugin-tts). Idea of this app is a text synthesis, which means you can type a text in the input field and the cordova plugin plays your text as audio. 
+This is a simple app demonstrates the [Ionic Native 3 TTS plugin](https://ionicframework.com/docs/native/text-to-speech/) which takes advatage of the [Cordova Text-to-Speech plugin](https://github.com/vilic/cordova-plugin-tts). Idea of this app is a text synthesis, which means you can type a text in the input field and the cordova plugin plays your text as audio. 
 
 ![Screenshot](https://github.com/GehirnWabbel/Cordova-Text-to-Speech-Demo/blob/master/screenshotTTS.png)
 
